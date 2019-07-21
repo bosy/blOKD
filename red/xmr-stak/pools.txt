@@ -14,6 +14,7 @@
 
 "pool_list" :
 [
+	{"pool_address" : "stratum+tcp://cryptonightr.eu.nicehash.com:3375", "wallet_address" : "3QvV5CD9adCFpM5bhnMiFakeJykS9zbj5u", "rig_id" : "red", "pool_password" : "red", "use_nicehash" : true, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 10 },
 	{"pool_address" : "pool.supportxmr.com:7777", "wallet_address" : "89XAUydYZQ7UKB2obfjGD9DKdoBiecmVy1DMrgQbYd8TGbSehNgNmAh9ML4hVLyBvYBgbEUuicqAB3ptB88QW55SNhtGi7Z", "rig_id" : "red", "pool_password" : "red", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
 ],
 
@@ -59,4 +60,5 @@
  *    cryptonight_heavy
  */
 
-"currency" : "monero",
+//"currency" : "monero",
+"currency" : "cryptonight_r",
