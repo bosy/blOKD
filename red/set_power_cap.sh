@@ -1,6 +1,6 @@
 #!/bin/bash
 
-POW-"170000000"
+POW="170000000"
 POW1=$POW
 POW2=$POW
 SLEEP=0
