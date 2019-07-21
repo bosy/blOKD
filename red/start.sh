@@ -4,7 +4,7 @@ LOG_FILE="logs/log-$(date -d 'today' +'%Y%m%d-%H%M%S').txt"
 
 sudo sysctl -w vm.nr_hugepages=128
 
-./set_power_cap.txt 2>&1 | tee -a $LOG_FILE
+./set_power_cap.sh 2>&1 | tee -a $LOG_FILE
 
 mkdir -p logs 2>&1 | tee -a $LOG_FILE
 
