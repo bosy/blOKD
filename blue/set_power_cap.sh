@@ -20,15 +20,15 @@ echo $POW1 | sudo tee /sys/class/hwmon/hwmon4/power1_cap >/dev/null
 sleep $SLEEP
 echo "Card 4 - setting Power CAP to $POW1"
 echo $POW1 | sudo tee /sys/class/hwmon/hwmon5/power1_cap >/dev/null
-sleep $SLEEP
-echo "Card 5 - setting Power CAP to $POW2"
-echo $POW2 | sudo tee /sys/class/hwmon/hwmon6/power1_cap >/dev/null
-sleep $SLEEP
-echo "Card 6 - setting Power CAP to $POW2"
-echo $POW2 | sudo tee /sys/class/hwmon/hwmon7/power1_cap >/dev/null
-sleep $SLEEP
-echo "Card 7 - setting Power CAP to $POW2"
-echo $POW2 | sudo tee /sys/class/hwmon/hwmon8/power1_cap >/dev/null
+#sleep $SLEEP
+#echo "Card 5 - setting Power CAP to $POW2"
+#echo $POW2 | sudo tee /sys/class/hwmon/hwmon6/power1_cap >/dev/null
+#sleep $SLEEP
+#echo "Card 6 - setting Power CAP to $POW2"
+#echo $POW2 | sudo tee /sys/class/hwmon/hwmon7/power1_cap >/dev/null
+#sleep $SLEEP
+#echo "Card 7 - setting Power CAP to $POW2"
+#echo $POW2 | sudo tee /sys/class/hwmon/hwmon8/power1_cap >/dev/null
 #sleep $SLEEP
 #echo "Card 8 - setting Power CAP to $POW2"
 #echo $POW2 | sudo tee /sys/devices/pci0000:00/0000:00:1c.6/0000:0a:00.0/0000:0b:00.0/0000:0c:00.0/hwmon/hwmon6/power1_cap >/dev/null
